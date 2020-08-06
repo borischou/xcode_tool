@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>de</string>
+	<string>zblassget</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>debugMethod();</string>
+	<string>return objc_getAssociatedObject(self, @selector(&lt;#flag#&gt;));</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>24C40543-FD02-442F-84F9-7D7EBAD89F21</string>
+	<string>DAB7E59A-4F43-4140-A849-470DC877C5A1</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>debug method</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>debug method</string>
+	<string>zblassget</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

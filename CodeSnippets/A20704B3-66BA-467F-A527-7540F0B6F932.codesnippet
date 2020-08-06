@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>zbltxtbtn</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (UIButton *)actionButton {
+    if (!_actionButton) {
+        _actionButton = [UIButton buttonWithType:UIButtonTypeCustom];
+        [_actionButton setTitle:@"&lt;#title#&gt;" forState:UIControlStateNormal];
+        [_actionButton setTitleColor:Theme.color.&lt;#color#&gt; forState:UIControlStateNormal];
+        [_actionButton addTarget:self action:@selector(&lt;#name#&gt;ButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
+    }
+    return _actionButton;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>A20704B3-66BA-467F-A527-7540F0B6F932</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>zbltxtbtn</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -3,24 +3,29 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>tq_init</string>
+	<string>zblbtnimg</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    self = [super init];
-    if (self) {
+	<string>- (UIButton *)settingsButton {
+    if (!_settingsButton) {
+        _settingsButton = [UIButton buttonWithType:UIButtonTypeCustom];
+        UIImage *img = Theme.icon.setting_b.color(Theme.color.grayLevel3).image;
+        [_settingsButton setImage:img forState:UIControlStateNormal];
+        [_settingsButton addTarget:self action:@selector(settingsButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
     }
-    return self;</string>
+    return _settingsButton;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>93934053-BDF5-48C3-8B7F-08EB04D69442</string>
+	<string>53BAB1F8-1ACD-42C9-9B23-71F5B234DFA4</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>tq init code</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>tq init code</string>
+	<string>zblbtnimg</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

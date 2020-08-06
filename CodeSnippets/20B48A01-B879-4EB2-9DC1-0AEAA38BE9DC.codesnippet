@@ -3,30 +3,30 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>tq_custom_dispatch</string>
+	<string>zbltableview</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    dispatch_queue_t urls_queue = dispatch_queue_create("com.elctech.image_queue", NULL);
-    
-    dispatch_async(urls_queue, ^{
-        [self getImageUrls];
-        dispatch_async(dispatch_get_main_queue(), ^{
-            [self downloadImages];
-        });
-    });
-    
-    dispatch_release(urls_queue);</string>
+	<string>- (UITableView *)tableView {
+    if (!_tableView) {
+        _tableView = [UITableView new];
+        _tableView.delegate = self;
+        _tableView.dataSource = self;
+        _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+        [_tableView registerClass:&lt;#(nullable Class)#&gt;.class forCellReuseIdentifier:NSStringFromClass(&lt;#Class  _Nonnull __unsafe_unretained aClass#&gt;.class)];
+    }
+    return _tableView;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>1C071233-5D65-4101-9C7C-A43509BB57B8</string>
+	<string>20B48A01-B879-4EB2-9DC1-0AEAA38BE9DC</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Custom dispatch queue</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Custom dispatch queue</string>
+	<string>zbltableview</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

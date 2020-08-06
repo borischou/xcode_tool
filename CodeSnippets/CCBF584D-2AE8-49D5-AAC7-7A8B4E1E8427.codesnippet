@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>zbltxtbutton</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (UIButton *)actionButton {
+    if (!_actionButton) {
+        _actionButton = [UIButton buttonWithType:UIButtonTypeCustom];
+        [_actionButton setTitle:&lt;#title#&gt; forState:UIControlStateNormal];
+        [_actionButton setTitleColor:Theme.color.&lt;#color#&gt; forState:UIControlStateNormal];
+        _actionButton.titleLabel.font = Theme.&lt;#font#&gt;;
+        _actionButton.clipsToBounds = YES;
+        _actionButton.layer.cornerRadius = &lt;#radius#&gt;;
+        _actionButton.layer.borderColor = Theme.color.&lt;#color#&gt;.CGColor;
+        _actionButton.layer.borderWidth = 1;
+        [_actionButton addTarget:self action:@selector(actionButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
+    }
+    return _actionButton;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>CCBF584D-2AE8-49D5-AAC7-7A8B4E1E8427</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>zbltxtbutton</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

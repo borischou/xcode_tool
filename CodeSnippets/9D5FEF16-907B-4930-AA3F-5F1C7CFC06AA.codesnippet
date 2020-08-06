@@ -3,23 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>dis</string>
+	<string>zbltoastmiddle</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    dispatch_async(dispatch_get_main_queue(), ^{
-
-    });</string>
+	<string>[[XYAlertCenter createTextItemWithTextOnMiddle:&lt;#(NSString *)#&gt;] show];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>1B268946-74B0-41AB-8923-243572E93099</string>
+	<string>9D5FEF16-907B-4930-AA3F-5F1C7CFC06AA</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>GCD:dispatch_asyc in main queue</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>dispatch_asyc in main queue</string>
+	<string>zbltoastmiddle</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

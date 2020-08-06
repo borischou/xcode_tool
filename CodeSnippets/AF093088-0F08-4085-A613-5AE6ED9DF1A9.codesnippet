@@ -3,25 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>tq_hide_keyboard</string>
+	<string>zbllinkmanager</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
-    [super touchesBegan:touches withEvent:event];
-    [self.view endEditing:YES];
-}
-</string>
+	<string>XYIMManagerSharedInstance.linkmicManager</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A807145A-F6BD-412C-AA06-DC931E43F730</string>
+	<string>AF093088-0F08-4085-A613-5AE6ED9DF1A9</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>hide keyboard when touch background</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>hide keyboard</string>
+	<string>zbllinkmanager</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

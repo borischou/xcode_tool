@@ -3,30 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>tq_timer</string>
+	<string>zbltitlelabel</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeExpression</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// 创建
-self.&lt;#var#&gt; = [NSTimer scheduledTimerWithTimeInterval:1.5
-                                                            target:self
-                                              selector:@selector(&lt;#timerMethod#&gt;)
-                                                          userInfo:nil
-                                                           repeats:YES];
-// 取消
-[self.&lt;#var#&gt; invalidate];
-
-</string>
+	<string>- (UILabel *)titleLabel {
+    if (!_titleLabel) {
+        _titleLabel = [UILabel new];
+        _titleLabel.textColor = Theme.color.grayLevel1;
+        _titleLabel.font = Theme.&lt;#font#&gt;;
+    }
+    return _titleLabel;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>C2DF7BF7-EF10-4F82-A9D3-D0E9C0991E9E</string>
+	<string>FBCB0A2F-D7D6-4F4B-BE6D-C4A2404444B7</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>tq_timer</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>tq_timer</string>
+	<string>zbltitlelabel</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

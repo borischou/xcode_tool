@@ -3,22 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ddd</string>
+	<string>zbllogstr</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)dealloc {
-    &lt;#ivar#&gt;
-    [super dealloc];
-}</string>
+	<string>NSString *log = [NSString stringWithFormat:@"%@", urlRequest];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D8C239B1-F57F-4975-BFA2-F04B13D75E23</string>
+	<string>E24FACF9-1EE7-4BAC-A08F-696FE87E7AB7</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>ELC dealloc</string>
+	<string>zbllogstr</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

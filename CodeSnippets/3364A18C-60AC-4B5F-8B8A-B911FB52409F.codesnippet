@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>zblasde</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>XYDeallocAttachment *&lt;#attachment#&gt; = [XYDeallocAttachment attchmentWithDeallocBlock:^{
+        XYLogDebug(@"[XYDeallocAttachment][&lt;#tagg#&gt;]&lt;#content#&gt;");
+    }];
+objc_setAssociatedObject(&lt;#object#&gt;, &lt;#key#&gt;, &lt;#value#&gt;, OBJC_ASSOCIATION_RETAIN_NONATOMIC);</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>3364A18C-60AC-4B5F-8B8A-B911FB52409F</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>zblasde</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -2,18 +2,22 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>zbleva</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@synthesize &lt;#property#&gt; = _&lt;#propertyIvar#&gt;;</string>
+	<string>+ (void)eventActionID&lt;#id#&gt;WithRoomID:(NSString *)roomID anchorID:(NSString *)anchorID userID:(NSString *)userID;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>764FBA7E-5782-45E8-AB28-C46EEDE39879</string>
+	<string>F78CD648-89FD-4993-B930-384FF9D70E33</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Synthesize</string>
+	<string>zbleva</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,24 +3,33 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>tq_extension</string>
+	<string>zblbgviewalpha0.4</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>TopLevel</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@interface &lt;#name#&gt;()
+	<string>- (UIView *)bgView {
+    if (!_bgView) {
+        _bgView = [UIView new];
+        _bgView.backgroundColor = [Theme.color.black colorWithAlphaComponent:0.4];
+        UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(bgViewTapped:)];
+        [_bgView addGestureRecognizer:tap];
+    }
+    return _bgView;
+}
 
-@end
-</string>
+- (void)bgViewTapped:(UITapGestureRecognizer *)tap {
+    
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>8D68DFE7-69E7-46E6-B4F0-F3C5EEC1BC12</string>
+	<string>96BC8590-7F94-4A22-91D7-11B97CE2485C</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>tq add interface() extension</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>tq add interface() extension</string>
+	<string>zblbgviewalpha0.4</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
